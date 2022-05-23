@@ -1,0 +1,200 @@
+
+.landing-message{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: 25px;;
+   margin-top: 50px;;
+
+}
+.landing-message span{
+    text-decoration: underline;
+    color: #410268;
+}
+
+.home_main{
+    width: 70%;
+    height: 45vh;
+    margin:40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+
+
+ .animated_text{ 
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.animated_text .text{
+    color:black;
+    width:auto;
+    
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+
+.box{
+   
+    background: #9eaad8;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 1px #1D1F26;
+
+
+}
+
+.box:hover{
+    box-shadow: 0px 0px 10px 4px #1D1F26;
+    
+}
+.stake{
+    color:#410268;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo_name{
+    border-bottom:2px solid #410268;
+    display: flex;
+    width:100%;
+    height: 8vh;
+    justify-content:space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: bolder;
+}
+.logo_name .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo_name .icon img {
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+}
+.logo_name .name{
+    margin-left: 20px;
+    line-break: 20;
+    display: flex;
+    align-items: center;
+    color:#410268;
+
+}
+.staking_details{
+padding: 10px;
+width: 100%;
+display: flex;
+flex-direction:column;
+align-items: baseline;
+justify-content: space-around;
+border-bottom:2px solid #520185;
+height: 25vh;
+font-weight: bold;
+font-size: medium;
+}
+
+.staking_details > div{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: larger;
+}
+
+.staking_details > div >label{
+    margin: 10px;
+}
+.add_withdraw{
+    border-top: 1px solid black;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+   font-weight: bolder;
+   padding: 10px;
+}
+.add_withdraw .add,.withdraw{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.box2{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.box2  .transact{
+    background-color: #9eaad8;
+    padding:10px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid #410268;
+    color:#410268;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 1px #1D1F26;
+}
+.box2 .transact .buy{
+    border-right:3px solid black ;
+ 
+}
+.box2 .transact label{
+    padding:20px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.box2 .roadmap_box{
+    background-color: #9eaad8;
+   width:100%; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border:2px solid #410268;
+   color: #410268;   
+   cursor: pointer;
+   border-radius: 20px;
+   box-shadow: 0px 0px 5px 1px #1D1F26;
+}
+
+.roadmap_box label,a{
+    width: 100%;   
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.roadmap_box a{
+    text-decoration: none;
+    color:#410268
+}
+
+.roadmap_box .roadmap{
+    border-bottom: 2px solid black;
+}
+
+

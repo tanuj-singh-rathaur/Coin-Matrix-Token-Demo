@@ -1,0 +1,36 @@
+.mail_box{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px 20px 10px 20px; 
+}
+
+.mail_button{
+    text-decoration: none;
+    font-size: xx-large;
+    border:2px solid #000000;
+    width:500px;
+    color:black;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 20px 5px #1D1F26;
+    transition: box-shadow 0.3s ease-in;
+}
+.mail_button:hover{
+    box-shadow: 0px 0px 2500px 5px black;
+}
+
+.support_details{
+     margin-top: 80px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-size: x-large;
+}
+
+.points{
+    margin:5px;
+    color:black;
+}

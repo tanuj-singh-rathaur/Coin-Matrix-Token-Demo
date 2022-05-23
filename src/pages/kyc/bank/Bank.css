@@ -1,0 +1,96 @@
+.bankDetails_form{
+    background:#3b4153d8;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:500px;
+    height:450px;
+    margin-top: 20px;
+ 
+}
+
+
+.bankDetails_form .account_number label,.ifsc_code label{
+    font-size: large;
+    margin-bottom: 20px;
+}
+.field input {
+    background: 0;
+    border: 0;
+    outline: none;
+    width:  50vh;
+    max-width: 40%;
+    font-size: 1.5em;
+    transition: padding 0.3s 0.2s ease;
+    
+  }
+  .field input:focus {
+    padding-bottom: 5px;
+  }
+  .field input:focus + .line:after {
+    transform: scaleX(1);
+  }
+
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+  .field {
+    position: relative;
+  }
+  .field .line {
+    width: 80%;
+    height: 3px;
+    position: absolute;
+    bottom: -8px;
+    background: #bdc3c7;
+  }
+  .field .line:after {
+    content: " ";
+    position: absolute;
+    float: right;
+    width: 100%;
+    height: 3px;
+    transform: scalex(0);
+    transition: transform 0.3s ease;
+    background: #410268;
+  }
+
+
+  .account_number,.ifsc_code,.image_upload{
+      margin: 30px;
+  }
+
+  .submit button{
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    background: linear-gradient(40deg, #ff6ec4, #7873f5);
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform .2s ease-out;
+    
+  }
+
+  .image_upload{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+
+ 
+    }

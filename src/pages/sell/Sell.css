@@ -1,0 +1,19 @@
+.lock_message{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.lock_message .m1{
+    color:black;
+    font-size: xx-large;
+    margin:10px;
+}
+
+.lock_message .m2{
+    color:rgb(27, 26, 26);
+    font-size: x-large;
+}
